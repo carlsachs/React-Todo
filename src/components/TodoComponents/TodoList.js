@@ -4,8 +4,8 @@ import React from "react"
 import Todo from "./Todo"
 
 
-export default function TodoList(props){
-    console.log(props)
+const TodoList = props => {
+
     return (
         <div className="todo-list">
             {props.items.map(item => (
@@ -14,3 +14,4 @@ export default function TodoList(props){
         </div>
     );
 };
+export default TodoList;
