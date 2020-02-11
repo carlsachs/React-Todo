@@ -2,9 +2,10 @@ import React from 'react';
 import TodoList from './components/TodoComponents/TodoList';
 import TodoForm from './components/TodoComponents/TodoForm';
 import styled from "styled-components";
+import "./styles.css"
 
 const Header = styled.div`
-    background-color: blue;
+    background-color: forestgreen;
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
